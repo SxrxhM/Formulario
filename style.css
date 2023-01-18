@@ -1,0 +1,79 @@
+* {
+  margin: 2;
+  padding: 3;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242934;
+}
+
+.form-register {
+  width: 300px;
+  background: #2f3644;
+  padding: 25px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 3px;
+  font-family: 'TT Commons';
+  color: #a8b5dc;
+  ;
+}
+
+.form-register h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+    font: 'TT Commons DemiBold';
+}
+
+.controls {
+  width: 100%;
+  background: #0000;
+  padding: 0px;
+  margin-bottom: 16px;
+  font-family: 'TT Commons ExtraLight';
+  font-size: 18px;
+  color: #a8b5dc;
+    box-sizing: border-box
+}
+
+.form.register button {
+  width: 100%;
+  padding: 12px;
+  color: #6c65f6;
+  margin: 16px 0;
+  font-size: 15px;
+}
+
+
+.form-control.success  {
+	border-color: #2ecc71;
+}
+
+.form-control.error  {
+	border-color: #e74c3c;
+}
+
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
